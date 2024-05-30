@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("deg").textContent = data.wind.deg;
       document.getElementById(
         "icon"
-      ).src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+      ).src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     })
     .catch((error) => console.error("Error:", error));
 });
